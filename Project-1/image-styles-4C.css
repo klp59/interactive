@@ -1,0 +1,28 @@
+img {
+  left: 15px;
+}
+
+#img-0 {
+  height:50px;
+  width: 1500px;
+}
+
+#img-1 {
+  height: 50px;
+  width: 50px;
+  position:fixed;
+  opacity: 200%;
+}
+
+#img-2 {
+  height: 1000px;
+  width: 500px;
+  position:fixed;
+  opacity: 20%;
+}
+
+#img-3 {
+   height:100px;
+  width: 470px;
+
+}

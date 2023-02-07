@@ -1,0 +1,46 @@
+img {
+  left: 15px;
+}
+
+#img-0 {
+  width:3000px; 
+  height: 200px;
+  position: fixed;
+  opacity: 50%;
+}
+
+#img-1 {
+  width:3000px; 
+  height: 200px;
+  position: fixed;
+  opacity: 50%;
+}
+
+#img-2 {
+  width: 100%;
+  float: left;
+}
+
+#img-3 {
+  float: right;
+}
+
+#img-4 {
+  width: 300px;
+  height: 1000px;
+}
+
+#img-5 {
+  width: 40%;
+  float: right;
+}
+
+#img-6 {
+  width: 100px;
+  height: 1000px;
+}
+
+#img-9 {
+  width: 100px;
+  height: 100px;
+}
