@@ -1,0 +1,39 @@
+img {
+  left: 15px;
+}
+
+#img-0 {
+  height:50px;
+  width: 1500px;
+  filter: blur
+}
+
+#img-1 {
+  height: 50px;
+  width: 50px;
+  position:fixed;
+  opacity: 200%;
+}
+
+#img-2 {
+  height: 1000px;
+  width: 500px;
+  position:fixed;
+  opacity: 20%;
+}
+
+#img-3 {
+   height:100px;
+  width: 470px;
+
+}
+
+#img-4 {
+  
+}
+
+ #blur {
+        font-size: 40px;
+        color: transparent;
+        text-shadow: 0 0 8px #000;
+        
