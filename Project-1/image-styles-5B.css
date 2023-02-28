@@ -29,10 +29,20 @@ img {
 
 a {
   font-size: 24px;
-  transition: 1s;
+  color: magenta;
+  transition: 5s;
 }
 
 a:hover {
+  color:orangered;
   font-size: 408px;
 }
 
+@keyframes move {
+  from {
+    transform: rotate(0deg) scale(12) translateX(-20px);
+  }
+  to {
+    transform: rotate(360deg) scale(18) translateX(20px);
+  }
+}
