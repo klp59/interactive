@@ -9,8 +9,8 @@ img {
 }
 
 #img-1 {
-  height: 50px;
-  width: 50px;
+  height: 5000px;
+  width: 100px;
   position:fixed;
   opacity: 200%;
 }
@@ -33,12 +33,13 @@ img {
 }
 
  #blur {
-        font-size: 40px;
+        font-size: 20px;
         color: transparent;
         text-shadow: 0 0 8px #000;}
 
 #blur:hover {
-font-size: 40px;
+color: hotpink;
   text-shadow: transparent;
+  font-family: monospace;
 }
         
