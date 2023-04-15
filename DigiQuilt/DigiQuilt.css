@@ -1,0 +1,176 @@
+@font-face {
+    font-family: ERTHQAKE;
+    src: url(ERTHQAKE.TTF);
+}
+
+@font-face {
+    font-family: lores-21-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#title-vertical {
+    position: fixed;
+    width: 201px;
+    height: 830px;
+    display: flex;
+    flex-direction: column;
+}
+
+.letters {
+    border: solid;
+    font-family: ERTHQAKE;
+    font-size: 700%;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    padding-top: 35px;
+    background-color: black;
+}
+
+#title-horizontal {
+    position: fixed;
+    margin-top: 830px;
+    width: 1900px;
+    height: 175px;
+    display: flex;
+}
+
+
+.letters2 {
+    border: solid;
+    font-family: ERTHQAKE;
+    font-size: 700%;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    padding-top: 45px;
+    background-color: black;
+
+}
+
+#quilt {
+    position: fixed;
+    margin-left: 210px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 1650px;
+    width: 1600px;
+    border: none;
+}
+
+#quilt:active {
+    transition: background 1.5s linear;
+}
+
+.tile {
+    font-family: lores-21-serif;
+    font-size: 150%;
+    height: 100%;
+    width: 100%;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: transparent;
+    transition: color 2s ease-out 100ms, background 1.5s linear;
+}
+
+.tile:hover {
+    color: black;
+}
+
+
+#options {
+    height: 835px;
+    width: 1620px;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 215px;
+    font-family: lores-21-serif;
+    font-size: 200%;
+    color: white;
+    transition: opacity 2s linear;
+    opacity: 0;
+    pointer-events:none; 
+    overflow:auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: none;
+    margin-left: -75px;
+}
+
+.header {
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+}
+
+
+#container {
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 23%;
+    padding: 10px;
+}
+
+.container {
+    height: 200px;
+    position: relative;
+    margin-top: 900px;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#options:hover {
+    -webkit-transition: font-size 4;
+}
+
+input[type="radio"] {
+    margin-top: -1px;
+    vertical-align: middle;
+}
+
+input[type="radio"]+label:hover {
+    font-size: 65px;
+    transition: font-size 1s ease-out 50ms;
+}
+
+button {
+    background-color: white;
+    border: none;
+    font-family: lores-21-serif;
+    color: black;
+    font-size: 50px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
