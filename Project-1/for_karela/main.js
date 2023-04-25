@@ -1,6 +1,6 @@
 // Create an array of messages. 
 var messages = [
-  "Yes", 
+  "Yes + Ur T-Shirt is Ugly!!", 
   "Def", 
   "Fuck yeah"
 ]
@@ -22,3 +22,17 @@ document.getElementById("button").onclick = function() {
 
   document.getElementById("message").innerHTML = message;
 };
+
+const circle1 = document.getElementById('circle1');
+
+document.addEventListener('touchmove', function(e) {
+  const touch = e.touches[0];
+  const x = touch.clientX;
+  const y = touch.clientY;
+
+  // Calculate the speed based on the position of the touch
+  const speed = (x + y) / 1000;
+
+  // Update the animation-duration property with the new speed
+  box.style.animationDuration = `${speed}s`;
+});

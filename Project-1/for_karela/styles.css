@@ -1,0 +1,73 @@
+#message {
+  font-size:100px;
+  color: white;
+  width: 320px;
+  padding: 10px;
+  margin: 0;
+}
+
+#background {
+  width: 700px;
+  height: 400px;
+  background: red;
+  border-radius: 60px;
+          border: 5px;
+          border-color: pink;
+}
+
+@media all and (max-width: 500px) {
+  #message {
+    position: absolute;
+    left: 800px;
+  }
+}
+
+#background2 {
+  position: absolute; 
+   width: 650px;
+  height: 350px;
+  background: purple;
+  border-radius: 60px;
+          border: 5px;
+          border-color: pink;
+  top: 30px;
+  left: 30px;
+}
+
+#button {
+  position: absolute;
+  top: 420px;
+  left: 25px;
+}
+
+#message {
+  position: absolute;
+  font-size: 30px;
+  top: 525px;
+  left: 80px;
+  width: 900px;
+  height: 400px;
+}
+
+#circle1 {
+  position: absolute;
+  top: 90px;
+  left: 50px;
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+}
+
+#circle2{
+  position:absolute;
+  top: 90px;
+  left: 400px;
+  animation: rotation 2s infinite linear;
+}
