@@ -1,14 +1,16 @@
 #message {
-  font-size:100px;
+  font-size:30px;
   color: white;
-  width: 320px;
+  width: 100px;
   padding: 10px;
   margin: 0;
+  top: 10px;
 }
 
 #background {
-  width: 700px;
-  height: 400px;
+  position:fixed;
+  width: 575px;
+  height: 300px;
   background: red;
   border-radius: 60px;
           border: 5px;
@@ -23,16 +25,16 @@
 }
 
 #opening {
-  position:absolute;
-  top: 35px;
-  left: 40px;
-  font-size: 40px;
+  position:fixed;
+  top: 45px;
+  left: 55px;
+  font-size: 30px;
 }
 
 #background2 {
-  position: absolute; 
-   width: 650px;
-  height: 350px;
+  position: fixed; 
+   width: 525px;
+  height: 250px;
   background: purple;
   border-radius: 60px;
           border: 5px;
@@ -42,53 +44,33 @@
 }
 
 #button {
-  position: absolute;
-  top: 420px;
+  position: fixed;
+  top: 320px;
   left: 25px;
+  width: 400px;
 }
 
 #message {
-  position: absolute;
-  font-size: 30px;
-  top: 525px;
-  left: 80px;
-  width: 900px;
+  position: fixed;
+  font-size: 20px;
+  top: 325px;
+  left: 375px;
+  width: 150px;
   height: 400px;
 }
 
 #music {
-  position:absolute;
-  top: 200px;
-  left: 750px;
-}
-
-#target {
-/*   border: 1px solid black; */
-/*   height: 500px; */
   position:fixed;
-  top:0;
-  left:0;
-  height:100%;
-  width:100%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-}
-
-#circle {
-  position:absolute;
-  left: 120px;
-  top: 200px;
-  height:100px;
-  width:100px;
-  border-radius:50%;
-  border: 1px solid blue;
+  top: 140px;
+  left: 590px;
 }
 
 #circle1 {
-  position: absolute;
+  position: fixed;
   top: 90px;
-  left: 50px;
+  left: 80px;
+  height: 150px;
+  width: 150px;
   animation: rotation 2s infinite linear;
 }
 
@@ -102,8 +84,10 @@
 }
 
 #circle2{
-  position:absolute;
+  position:fixed;
   top: 90px;
-  left: 400px;
+  left: 350px;
+  height: 150px;
+  width: 150px;
   animation: rotation 2s infinite linear;
 }
