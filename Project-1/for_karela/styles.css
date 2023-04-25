@@ -22,6 +22,13 @@
   }
 }
 
+#opening {
+  position:absolute;
+  top: 35px;
+  left: 40px;
+  font-size: 40px;
+}
+
 #background2 {
   position: absolute; 
    width: 650px;
@@ -47,6 +54,35 @@
   left: 80px;
   width: 900px;
   height: 400px;
+}
+
+#music {
+  position:absolute;
+  top: 200px;
+  left: 750px;
+}
+
+#target {
+/*   border: 1px solid black; */
+/*   height: 500px; */
+  position:fixed;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+#circle {
+  position:absolute;
+  left: 120px;
+  top: 200px;
+  height:100px;
+  width:100px;
+  border-radius:50%;
+  border: 1px solid blue;
 }
 
 #circle1 {

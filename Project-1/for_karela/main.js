@@ -2,7 +2,20 @@
 var messages = [
   "Yes + Ur T-Shirt is Ugly!!", 
   "Def", 
-  "Fuck yeah"
+  "FUCKIT",
+  "Fuck YEaaaaaa",
+  "Duh (nothings real anyways)",
+  "Ya y not",
+  "fuck it be hedonist",
+  "uhhhh yea",
+  "tbh do whatever u want",
+  "Fuck yeah",
+  "omg it would be so funny",
+  "i think thats what you need right now",
+  "deadass u better",
+  "bro if you don't i'll get mad",
+  "tbh not my problem",
+  "lol sure"
 ]
 
 // store the number of messages in a variable
@@ -36,3 +49,56 @@ document.addEventListener('touchmove', function(e) {
   // Update the animation-duration property with the new speed
   box.style.animationDuration = `${speed}s`;
 });
+
+function start_handler(ev) {
+  ev.preventDefault();
+
+  if (ev.targetTouches.length == 1) {
+    document.body.style.background = "red";
+  } else if (ev.targetTouches.length == 2) {
+    document.body.style.background = "orange";
+  } else if (ev.targetTouches.length == 3) {
+    document.body.style.background = "yellow";
+  } else if (ev.targetTouches.length == 4) {
+    document.body.style.background = "pink";
+  } else {
+    document.body.style.background = "black";
+  }
+}
+
+// this function runs when a touchMove is detected.
+function move_handler(ev) {
+  ev.preventDefault();
+
+  var y_position = ev.targetTouches[0].clientY;
+  document.getElementById("circle").style.height = y_position + "px";
+  
+  audio.playbackspeed = y_position;
+
+  var x_position = ev.targetTouches[0].clientX;
+  document.getElementById("circle").style.width = x_position + "px";
+}
+
+// this runs when a touch end is detected. It resets the styles to the initial state.
+function end_handler(ev) {
+  ev.preventDefault();
+  if (ev.targetTouches.length == 0) {
+    document.body.style.background = "white";
+    document.getElementById("circle").style.width = "100px";
+    document.getElementById("circle").style.height = "100px";
+  }
+}
+
+// this sets up all the event handlers
+function set_handlers(name) {
+  var el = document.getElementById(name);
+  el.ontouchstart = start_handler;
+  el.ontouchmove = move_handler;
+  el.ontouchcancel = end_handler;
+  el.ontouchend = end_handler;
+}
+
+// and this initializes them
+function init() {
+  set_handlers("target");
+}
