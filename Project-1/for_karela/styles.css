@@ -10,7 +10,7 @@
 #background {
   position:fixed;
   width: 575px;
-  height: 300px;
+  height: 250px;
   background: red;
   border-radius: 60px;
           border: 5px;
@@ -26,7 +26,7 @@
 
 #opening {
   position:fixed;
-  top: 45px;
+  top: 35px;
   left: 90px;
   font-size: 30px;
 }
@@ -34,7 +34,7 @@
 #background2 {
   position: fixed; 
    width: 525px;
-  height: 250px;
+  height: 200px;
   background: purple;
   border-radius: 60px;
           border: 5px;
@@ -45,7 +45,7 @@
 
 #button {
   position: absolute;
-  top: 320px;
+  top: 270px;
   left: 25px;
   width: 305px;
   cursor: pointer;
@@ -59,7 +59,7 @@
 #message {
   position: fixed;
   font-size: 20px;
-  top: 325px;
+  top: 270px;
   left: 325px;
   width: 300px;
   height: 400px;
@@ -88,7 +88,7 @@
 
 #circle1 {
   position: fixed;
-  top: 90px;
+  top: 70px;
   left: 80px;
   height: 150px;
   width: 150px;
@@ -106,7 +106,7 @@
 
 #circle2{
   position:fixed;
-  top: 90px;
+  top: 70px;
   left: 350px;
   height: 150px;
   width: 150px;
