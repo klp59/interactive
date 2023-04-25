@@ -27,7 +27,7 @@
 #opening {
   position:fixed;
   top: 45px;
-  left: 55px;
+  left: 100px;
   font-size: 30px;
 }
 
@@ -54,8 +54,8 @@
   position: fixed;
   font-size: 20px;
   top: 325px;
-  left: 375px;
-  width: 150px;
+  left: 325px;
+  width: 300px;
   height: 400px;
 }
 
@@ -64,6 +64,20 @@
   top: 140px;
   left: 590px;
 }
+
+#target {
+/*   border: 1px solid black; */
+/*   height: 500px; */
+  position:fixed;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
 
 #circle1 {
   position: fixed;
