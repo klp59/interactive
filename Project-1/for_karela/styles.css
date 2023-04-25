@@ -27,7 +27,7 @@
 #opening {
   position:fixed;
   top: 45px;
-  left: 100px;
+  left: 90px;
   font-size: 30px;
 }
 
@@ -44,11 +44,17 @@
 }
 
 #button {
-  position: fixed;
+  position: absolute;
   top: 320px;
   left: 25px;
-  width: 400px;
-}
+  width: 305px;
+  cursor: pointer;
+  outline: none;
+  color: darkblue;
+  background-color: greenyellow;
+  border: none;
+  border-radius: 15px;
+ }
 
 #message {
   position: fixed;
@@ -57,6 +63,7 @@
   left: 325px;
   width: 300px;
   height: 400px;
+  color: red;
 }
 
 #music {
