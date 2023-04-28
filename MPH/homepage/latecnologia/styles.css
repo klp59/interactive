@@ -1,0 +1,112 @@
+#tech {
+  position: absolute;
+  font-size: 40px;
+  color: white;
+  width: 100px;
+  height: 100px;
+  left: 810px;
+  font-family: Dada is the new Black;
+  top: 260px;
+  border: none;
+  background: none;
+  
+}
+
+#tech.onhover {
+  color:blue;
+  opacity: 50%;
+}
+
+
+#whole {
+  position: absolute;
+  width: 700px;
+  height: 800px;
+  left: 400px;
+  top: 100px;
+}
+
+body { 
+  background-image:url('./photos/download-06.gif'); 
+  background-repeat:repeat; }
+
+#part1 {
+  position: fixed;
+  width: 370px;
+  height: 400px;
+  left: 735px;
+  top: 105px;
+}
+
+#part1:hover {
+opacity: 50%;
+}
+
+#part2 {
+  position: fixed;
+  width: 420px;
+  height: 370px;
+  left: 400px;
+  top: 320px;
+}
+
+#part3 {
+  position: fixed;
+  width: 320px;
+  height: 300px;
+  left: 600px;
+  top: 525px;
+}
+
+#part4 {
+  position: fixed;
+  width: 260px;
+  height: 415px;
+  left: 835px;
+  top: 442px;
+}
+
+#tittle {
+  font-size: 170px;
+  width: 150px;
+  font-family: Dada is the new Black;
+}
+
+#econo {
+  position: fixed;
+  font-size: 40px;
+  color: white;
+  width: 100px;
+  height: 100px;
+  left: 560px;
+  font-family: Dada is the new Black;
+  top: 450px;
+  border: none;
+  background: none;
+}
+
+#en {
+  position: fixed;
+  font-size: 40px;
+  color: white;
+  width: 100px;
+  height: 300px;
+  left: 670px;
+  font-family: Dada is the new Black;
+  top: 610px;
+  border: none;
+  background: none;
+}
+
+#art {
+  position: fixed;
+  font-size: 40px;
+  color: white;
+  width: 100px;
+  height: 300px;
+  left: 920px;
+  font-family: Dada is the new Black;
+  top: 580px;
+  border: none;
+  background: none;
+}
