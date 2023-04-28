@@ -1,9 +1,11 @@
-#tree {
-	position:fixed;
-	width:1000px;
-	height: 500px;
+
+
+#text {
+	postion:fixed;
 }
 
-#body {
-	postion:fixed;
+#tree {
+	position:absolute;
+	width:500px;
+	height:200px;
 }
