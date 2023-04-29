@@ -1,12 +1,15 @@
 
+      #img3 {
+      	position: absolute;
+        width: 800px;
+        left: 600px;
+        top: -400px;
+      }
 
-#text {
-	postion:fixed;
-	top: 500px;
-}
 
-#body {
-	position:absolute;
-	width:500px;
-	height:200px;
-}
+      .text {
+        position: absolute;
+        width: 600px;
+        font-family: arial;
+        top: 300px;
+      }
